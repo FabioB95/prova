@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- set the encoding of your site -->
+	<meta charset="utf-8">
+	<!-- set the viewport width and initial-scale on mobile devices -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- set the apple mobile web app capable -->
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<!-- set the HandheldFriendly -->
+	<meta name="HandheldFriendly" content="True">
+	<!-- set the apple mobile web app status bar style -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<!-- set the description -->
+	<meta name="description" content="Swan Lake - Lead Generation Marketing Landing Page">
+	<meta name="keywords" content="agency, bootstrap, business, corporate, creative, minimal, modern, onepage, personal, portfolio,  html5, responsive">
+	<meta name="author" content="Swan Lake - Lead Generation Marketing Landing Page">
+	<!-- Page Title -->
+	<title>Brief made by Camaleónico</title>
+	<!-- include the site stylesheet -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700%7cUbuntu:400,700" rel="stylesheet">
+	<!-- include the site stylesheet -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- include the site stylesheet -->
+	<link rel="stylesheet" href="css/fonts-icons.css">
+	<!-- include the site stylesheet -->
+	<link rel="stylesheet" href="css/plugin-resets.css">
+	<!-- include the site stylesheet -->
+	<link rel="stylesheet" href="style.css">
+	<!-- include the site stylesheet -->
+	<link rel="stylesheet" href="css/responsive.css">
+	<!-- include the site stylesheet -->
+	<link rel="stylesheet" href="css/color.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+<body>
+	<div id="wrapper">
+		<div class="loader-container" id="loader">
+			<div class="holder">
+				<div class="la-line-scale la-2x">
+					<div></div>
+					<div></div>
+					<div></div>
+					<div></div>
+					<div></div>
+				</div>
+			</div>
+		</div>
+		<!-- header of the page start here -->
+		<header id="header" class="dark-bg" data-scroll-index="0">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 col-sm-4">
+						<!-- header logo -->
+						<div class="logo pull-left">
+							<a href="home.html">
+								<img src="" alt="camaleónico_logo" class="img-responsive">
+							</a>
+						</div>
+						<a href="#" class="nav-opener pull-right"><i class="fa fa-bars" aria-hidden="true"></i></a>
+					</div>
+					<div class="col-xs-12 col-sm-8">
+						<!-- top list -->
+						<ul class="list-inline text-right top-list">
+							<li>
+								<a href="mailto:info@camaleonico.agency"><i class="fa fa-envelope main-color"></i></a>
+								<strong>Contact US :</strong>
+								<a href="mailto:info@camaleonico.agency">info@camaleonico.agency</a>
+							</li>
+							<li>
+								<a href="tel:+393477136815"><i class="fa fa-phone main-color"></i></a>
+								<strong>Call Us :</strong>
+								<a href="tel:+393477136815">+393477136815</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- page navigation start here -->
+			<!-- <nav id="nav">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12">
+							<ul class="nav-list list-inline">
+								<li><a href="#" data-scroll-nav="0" class="smooth">Home</a></li>
+								<li><a href="#" data-scroll-nav="2" class="smooth">Why is the Brief important?</a></li>
+								<li><a href="#" data-scroll-nav="3" class="smooth">How to download it</a></li>
+								<li><a href="#" data-scroll-nav="4" class="smooth">Knowing more about us</a></li>
+								<li><a href="mailto:info@camaleonico.agency">Contact Us</a></li>
+								<li class="button"><a href="#" class="btn btn-default main-bg-color text-uppercase smooth" data-scroll-nav="1">Get your Free Brief Template</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</nav> -->
+			<!-- page navigation end here -->
+		</header>
+		<!-- header of the page end here -->
+		<!-- main content wrapping section start here -->
+		<main id="main">
+			<!-- main banner section start here -->
+			<section class="bg-img-full main-banner bg-img-parallax" style="background-image: url(http://placehold.it/1920x1080);" data-scroll-index="0">
+				<span class="overlay"></span>
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12 col-sm-6 col-md-7">
+							<span class="title">Have you ever thought about a Brief template?</span>
+							<h1 class="heading text-uppercase">DOWNLOAD HERE YOUR <span class="third-color">FREE BRIEF TEMPLATE</span></h1>
+							
+							<div class="btn-holder">
+								<a href="#" class="btn btn-default main-bg-color text-uppercase" data-scroll-nav="2">Explore More</a>
+							</div>
+							<span class="arrow" style="background-image: url(images/arrow.png);"></span>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-5">
+							<!-- quote form start here -->
+							<section class="quote-form"  data-scroll-index="1">
+								<h2 class="form-heading text-center text-uppercase">register now</h2>
+								<span class="form-title text-center">Receive your free Brief Template</span>
+								<form id="contactForm" data-toggle="validator">
+									<fieldset>
+										<div class="form-group">
+											<input type="text" id="name" placeholder="Your Name" class="form-control" required data-error="NEW ERROR MESSAGE">
+										</div>
+										<div class="form-group">
+											<input type="email" id="email" placeholder="Your Email" class="form-control" required data-error="NEW ERROR MESSAGE">
+										</div>
+										
+										<div id="msgSubmit" class="form-message hidden"></div>
+										<span class="info"><i class="fa fa-info-circle main-color" aria-hidden="true"></i> We will never share your personal info, look at our 
+										main website <a href="#"> privacy </a> for subscriptions</span>
+										<button class="btn btn-default main-bg-color" type="submit" id="form-submit">GET YOUR FREE BRIEF</button>
+									</fieldset>
+								</form>
+							</section>
+							
+							
+							
+							<!-- Modal CSS -->
+							<style>
+								.modal {
+									display: none; 
+									position: fixed; 
+									z-index: 1; 
+									left: 0;
+									top: 0;
+									width: 100%;
+									height: 100%;
+									overflow: auto; 
+									background-color: rgba(0,0,0,0.4); 
+									display: flex;
+									align-items: center;
+									justify-content: center;
+								}
+						
+								.modal-content {
+									background-color: #fff;
+									padding: 20px;
+									border-radius: 10px;
+									width: 90%;
+									max-width: 500px;
+									text-align: center;
+									position: relative;
+								}
+						
+								.close {
+									color: #aaa;
+									position: absolute;
+									top: 10px;
+									right: 20px;
+									font-size: 28px;
+									font-weight: bold;
+									cursor: pointer;
+								}
+						
+								.close:hover,
+								.close:focus {
+									color: black;
+								}
+						
+								.modal-content p {
+									color: #333;
+								}
+						
+								.modal-content img {
+									max-width: 100px;
+									margin-bottom: 20px;
+								}
+						
+								.modal-content a {
+									display: inline-block;
+									margin-top: 20px;
+									padding: 10px 20px;
+									background-color: #8800ff;
+									color: white;
+									text-decoration: none;
+									border-radius: 5px;
+								}
+						
+								.modal-content a:hover {
+									background-color: #14DABA;
+								}
+							</style>
+
+							 <!-- Modal HTML -->
+    							<div id="downloadModal" class="modal">
+        							<div class="modal-content">
+            							<span class="close">&times;</span>
+            							<img src="#" alt="Camaleónico Agency">
+            							<p>Your information has been saved successfully!</p>
+            							<p><a href="./template/Libro 3.pdf" download>Click here to download your free brief</a></p>
+            							<button id="modalCloseButton">OK</button>
+        							</div>
+    							</div>
+
+    
+							
+
+							<!-- quote form end here -->
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#contactForm').on('submit', function(e) {
+                e.preventDefault();
+                
+                var name = $('#name').val();
+                var email = $('#email').val();
+                
+                // Funzione per salvare i dati su Google Sheets
+                saveToGoogleSheets(name, email, function() {
+                    // Mostra la finestra modale dopo aver salvato i dati
+                    console.log('Data saved, showing modal...');
+                    var modal = document.getElementById("downloadModal");
+                    modal.style.display = "flex";
+                    localStorage.setItem('formSubmitted', 'true');
+                });
+            });
+
+            function saveToGoogleSheets(name, email, callback) {
+                const scriptURL = 'https://script.google.com/macros/s/AKfycbzEE0dTj9lGsfGYtWZXb0hfRfzsyel-mM7Uq5FQ--kyPpJIyqEilD88PPumRt3MTFnP/exec';
+                const data = new URLSearchParams();
+                data.append('name', name);
+                data.append('email', email);
+                
+                fetch(scriptURL, { method: 'POST', body: data })
+                    .then(response => {
+                        if (!response.ok) {
+                            throw new Error('Network response was not ok ' + response.statusText);
+                        }
+                        return response.json();
+                    })
+                    .then(result => {
+                        console.log('Success:', result);
+                        if (result.result === 'success') {
+                            if (callback) callback();
+                        } else {
+                            alert('There was an error submitting the form. Please try again.');
+                            console.error('Error:', result);
+                        }
+                    })
+                    .catch(error => {
+                        console.error('Error:', error);
+                        alert('There was an error submitting the form. Please try again.');
+                    });
+            }
+
+            // Chiudi la finestra modale quando l'utente clicca sulla 'x'
+            var span = document.getElementsByClassName("close")[0];
+            span.onclick = function() {
+                var modal = document.getElementById("downloadModal");
+                modal.style.display = "none";
+            }
+
+            // Chiudi la finestra modale quando l'utente clicca fuori dalla finestra modale
+            window.onclick = function(event) {
+                var modal = document.getElementById("downloadModal");
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                }
+            }
+
+            // Chiudi la finestra modale quando l'utente clicca sul bottone OK
+            var modalCloseButton = document.getElementById("modalCloseButton");
+            modalCloseButton.onclick = function() {
+                var modal = document.getElementById("downloadModal");
+                modal.style.display = "none";
+            }
+
+            // Controlla se il form è stato già inviato
+            if (localStorage.getItem('formSubmitted') === 'true') {
+                var modal = document.getElementById("downloadModal");
+                modal.style.display = "none";
+            }
+        });
+    </script>
+			<!-- main banner section end here -->
+
+
+			
+			<!-- about section start here -->
+			<section class="about-section pad-top-lg pad-bottom-sm" data-scroll-index="2">
+				<div class="container">
+					<!-- main heading start here -->
+					<header class="main-heading row">
+						<div class="col-xs-12 col-sm-10 col-sm-push-1 col-lg-8 col-lg-push-2 text-center">
+							<h2 class="heading text-uppercase"><span class="third-color">Why is a brief</span>  template important?</h2>
+							
+							<p>A brief is crucial for a company as it clarifies objectives, aligns team efforts, and ensures efficient project execution.</p>
+						</div>
+					</header>
+					<div class="row">
+						<!-- about box start here -->
+						<div class="col-xs-12 col-sm-6 col-md-3 about-box pad-bottom-sm">
+							<span class="num main-color">01.</span>
+							<span class="title text-uppercase">Clarifies Objectives</span>
+							
+							<p>A brief outlines the project's goals and expectations, providing clear direction. 
+								This ensures everyone understands the desired outcomes, reducing confusion and aligning efforts towards common targets.</p>
+							
+						</div>
+						<!-- about box end here -->
+						<!-- about box start here -->
+						<div class="col-xs-12 col-sm-6 col-md-3 about-box pad-bottom-sm">
+							<span class="num main-color">02.</span>
+							<span class="title text-uppercase">Aligns Team Efforts</span>
+							
+							<p>By detailing roles and responsibilities, a brief ensures all team members know their tasks and how they contribute to the project's success. 
+								This fosters collaboration and prevents overlap or gaps in the workflow.</p>
+							
+						</div>
+						<!-- about box end here -->
+						<!-- about box start here -->
+						<div class="col-xs-12 col-sm-6 col-md-3 about-box pad-bottom-sm">
+							<span class="num main-color">03.</span>
+							<span class="title text-uppercase">Ensures Efficient Execution</span>
+							
+							<p>A well-constructed brief streamlines the project process by setting timelines and milestones. 
+								This helps manage time effectively, keeps the project on track, and allows for timely adjustments if needed.</p>
+							
+						</div>
+						<!-- about box end here -->
+						<!-- about box start here -->
+						<div class="col-xs-12 col-sm-6 col-md-3 about-box pad-bottom-sm">
+							<span class="num main-color">04.</span>
+							<span class="title text-uppercase">Enhances Communication</span>
+							
+							<p>A brief serves as a reference document for all stakeholders, facilitating consistent and clear communication. 
+								It minimizes misunderstandings and keeps everyone informed about the project's progress and any changes.</p>
+							
+						</div>
+						<!-- about box end here -->
+					</div>
+				</div>
+			</section>
+			<!-- about section end here -->
+			
+			
+			
+
+	
+		<!-- footer of the page start here -->
+		
+		
+		
+		<footer id="footer" class="dark-bg pad-top-xs pad-bottom-xs">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 col-sm-4">
+						<!-- footer logo -->
+						<div class="logo pull-left">
+							<a href="home.html">
+								<img src="#" alt="Camaleónico logo" class="img-responsive">
+							</a>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-8">
+						<!-- top list -->
+						<ul class="list-inline text-right top-list">
+							<li>
+								<a href="mailto:info@camaleonico.agency"><i class="fa fa-envelope main-color"></i></a>
+								<strong>Contact US :</strong>
+								<a href="mailto:info@camaleonico.agency">info@camaleonico.agency</a>
+							</li>
+							<li>
+								<a href="tel:+393477136815"><i class="fa fa-phone main-color"></i></a>
+								<strong>Call Us :</strong>
+								<a href="tel:+393477136815">+393477136815</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<!-- footer bottom container -->
+					<div class="col-xs-12 col-sm-6 bottom">
+						<p>2024 © Camaleónico Agency. All rights reserved.</p>
+					</div>
+					<!-- footer bottom container -->
+					<div class="col-xs-12 col-sm-6 bottom">
+						<ul class="list-inline text-right mt-social">
+							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="#"><i class="fa fa-behance"></i></a></li>
+							<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- footer of the page end here -->
+		<!-- Back Top of the page -->
+	    <span id="back-top" class="fa fa-angle-up main-bg-color"></span>
+	    <div class="popup-holder">
+	    	<div id="popup1" class="lightbox">
+				<!-- quote form start here -->
+				<section class="quote-form" style="background-image: url(images/img02.jpg);">
+					<h2 class="form-heading text-center text-uppercase">register now</h2>
+					<span class="form-title text-center">Take your free trial</span>
+					<form id="contactForm" data-toggle="validator">
+						<fieldset>
+							<div class="form-group">
+								<input type="text" id="name" placeholder="Your Name" class="form-control" required data-error="NEW ERROR MESSAGE">
+							</div>
+							<div class="form-group">
+								<input type="email" id="email" placeholder="Your Email" class="form-control" required data-error="NEW ERROR MESSAGE">
+							</div>
+							<div class="form-group">
+								<input type="tel" id="phone" placeholder="Phone Number" class="form-control" required data-error="NEW ERROR MESSAGE">
+							</div>
+							<div id="msgSubmit" class="form-message hidden"></div>
+							<span class="info"><i class="fa fa-info-circle main-color" aria-hidden="true"></i> We will never share your personal info</span>
+							<button class="btn btn-default main-bg-color" type="submit" id="form-submit">GET A QUOTE</button>
+						</fieldset>
+					</form>
+				</section>
+				<!-- quote form end here -->
+	    	</div>
+	    </div>
+	</div>
+	<script src="js/jquery.js"></script>
+	<script src="js/plugins.js" defer></script>
+	<script src="js/jquery.main.js" defer></script>
+</body>
+</html>
